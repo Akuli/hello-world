@@ -12,5 +12,5 @@ elif os.fork():
         print(next(f))
 else:
     with open(b, 'wb') as f:
-        while not f.write(c.recv(1024)):
+        while not f.write(c.recv(1 << 10)):
             pass
