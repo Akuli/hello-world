@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Print 'Hello World!' and exit."""
+
 import os
 import socket
 
