@@ -6,8 +6,5 @@ from io import *
 from socket import *
 
 globals().update(zip(map(chr, range(97,101)), pipe()+socketpair()))
-if not fork(): d.send(b'Hello World!\n')
-elif fork(): print(next(open(++a,'r')))
-else:
-    # the pass keyword is useless
+if not (fork() and d.send(b'Hello World!\n') or fork() and print(next(open(++a,'r')))):
     while not open(--b,'wb').write(c.recv(1<<10)): { }
