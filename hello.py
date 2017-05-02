@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
-
 """Print 'Hello World!' and exit."""
 
-import os
-import socket
+from posix import *
+from io import *
+from socket import *
 
-
-a, b, c, d = os.pipe() + socket.socketpair()
-if not os.fork():
-    d.send(b'Hello World!\n')
-elif os.fork():
-    with open(a, 'r') as f:
-        print(next(f))
+globals().update(zip(map(chr, range(97,101)), pipe()+socketpair()))
+if not fork(): d.send(b'Hello World!\n')
+elif fork(): print(next(open(++a,'r')))
 else:
-    with open(b, 'wb') as f:
-        while not f.write(c.recv(1 << 10)):
-            pass
+    # the pass keyword is useless
+    while not open(--b,'wb').write(c.recv(1<<10)): { }
