@@ -5,6 +5,7 @@ from posix import *
 from io import *
 from socket import *
 
-globals().update(zip(map(chr, range(97,101)), pipe()+socketpair()))
-if not (fork() and d.send(b'Hello World!\n') or fork() and print(next(open(++a,'r')))):
-    while not open(--b,'wb').write(c.recv(1<<10)): { }
+dict.update(globals(), zip(map(chr, range(97,101)),
+pipe()+socketpair())); (fork() and d.send(b'Hello World!\n') or fork()
+and print(next(open(++a,'r'))) or BufferedWriter.write(open(--b,'wb'),
+c.recv(1<<10)))
