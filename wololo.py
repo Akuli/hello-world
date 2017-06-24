@@ -1,5 +1,4 @@
-from itertools import *
-fl,rep,x=chain.from_iterable,repeat,lambda x:x
+from itertools import*;fl,rep,x=chain.from_iterable,repeat,lambda x:x
 @x(lambda x:lambda:exit(len(list(map(lambda s:x().send(None),str(int()))))))
 async def main():
 
@@ -14,7 +13,7 @@ async def main():
 
     # Python
     return print(....__str__()[:1<3:].__class__.join('', chain.  # pep8 says 79
-           from_iterable(zip(chr(val).decode(), 'O' * 3 * (....  # pep8 says 79
+           from_iterable(zip(chr(val).decode(), 'O'*3**1**(....  # pep8 says 79
            __eq__(... if... else... [...] or not...
 
     # Lisp
@@ -28,7 +27,7 @@ main()
 {
     #include <iostream>
     public:
-        void[std::cout] << "hello" << --i << ++j,
+        void& ~0xffff[std::cout] << "hello" << --i << ++j,
     private:
         int *i, j: NULL
 }
