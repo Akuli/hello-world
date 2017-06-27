@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from itertools import*;fl,rep,x=chain.from_iterable,repeat,lambda x:x
 @x(lambda x:lambda:exit(len(list(map(lambda s:x().send(None),str(int()))))))
 async def main():
