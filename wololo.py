@@ -30,5 +30,5 @@ main()
     public:
         void& ~0xffff[std::cout] << "hello" << --i << ++j,
     private:
-        int *i, j: NULL
+        int *i, j: nullptr
 }
