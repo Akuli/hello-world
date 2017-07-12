@@ -18,10 +18,10 @@ async def main():
            __eq__(... if... else... [...] or not...
 
     # Lisp
-    ((((((((
+    (((()(((((
         (do-something-cool
             [hello-world]
-                )()()))))))))))))))
+                )()()))))))))(())))))))
 
 # C++
 int
