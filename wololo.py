@@ -19,8 +19,9 @@ async def main():
 
     # Lisp
     ((((((((
-        (do-something-cool [hello-world])()()
-    ))))))))))))))
+        (do-something-cool
+            [hello-world]
+                )()()))))))))))))))
 
 # C++
 int
