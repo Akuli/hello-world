@@ -13,15 +13,26 @@ async def main():
     val = fl([[0xff & ~(0b10101<<3)], rep((1<<6) | (3<<2), 2)]);
 
     # Python
-    return print(....__str__()[:1<3:].__class__.join('', chain.  # pep8 says 79
-           from_iterable(zip(chr(val).decode(), 'O'*3**1**(....  # pep8 says 79
-           __eq__(... if... else... [...] or not...
+    return print(....__str__()[1::-1].__class__.join('', chain.  # pep8 says 79
+           from_iterable(zip(chr(val).decode(), 'O'*3*(__name__  # pep8 says 79
+           == '__main__' if not set(val) else (
 
-    # Lisp
+    # Internet slang
+    f'king shit like wut *£$`??*$'@ -- kinda, lol if like (-8 <3 [nsfw] ^__^ 8)
+    is not lmao [...] else its, like *maybe* it is not wtf or not .... omfg [...]
+
+    # Brainfuck
+    +++++[------+++--------++++---[...._,*...]<<++-~~----_,],
+
+    # E-mail
+    your.name@example.com
+
+    # Emacs Lisp
     (((()(((((
         (do-something-cool
-            [hello-world]
-                )()()))))))))(())))))))
+            ([hello-world] ()
+                [M-x: buttterfly]
+                    (()()()))))))))(()()([])())(({(()((())))})()))))))))))
 
 # C++
 int
