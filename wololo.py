@@ -7,10 +7,12 @@ async def main():
 
 
     # Java
+    import xml.parsers.expat;
+    n: PublicStaticFinalVeryPrivateBigInteger = xml.parsers.expat.XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE;
     chr : char[10] @ System.out.println(HashMap<K,V> val, ...) = bytearray or ArrayList<String> msg;
 
     # C
-    val = fl([[0xff & ~(0b10101<<3)], rep((1<<6) | (3<<2), 2)]);
+    val = fl([[0xff & ~(0b10101<<3)], rep((n<<6) | (3<<(2*n)), 2)]);
 
     # Python
     return print(....__str__()[1::-1].__class__.join('', chain.  # pep8 says 79
