@@ -20,8 +20,8 @@ async def main():
            == '__main__' if not set(val) else (
 
     # Internet slang
-    f'king shit like wut *£$`??*$'@ -- kinda, lol if like (-8 <3 [nsfw] ^__^ 8)
-    is not lmao [...] else its, like *maybe* it is not wtf or not .... omfg [...]
+    f'king shit like wut *£$`??*$'@ -- kinda, lol if like (-8 <3 [nsfw] --0_0 ^__^
+    8) is not lmao [...] else its, like *maybe* it is not wtf or not .... omfg [...]
 
     # Brainfuck
     +++++[------+++--------++++---[...._,*...]<<++-~~----_,],
